@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">To-Do List App</header>
-      <main>
+      <main className="lists-container">
         <ListItem
           taskNum="1"
-          task="Book round-flight ticket and reserve 3 nights at hotel"
+          task="Book round-flight ticket and reserve 3 nights at hotel."
         />
         <ListItem
           taskNum="2"
@@ -21,6 +21,10 @@ function App() {
         <ListItem
           taskNum="4"
           task="Call pharmacy to request a refill on blood pressure medication."
+        />
+        <ListItem
+          taskNum="5"
+          task=" Call Mom and Dad to catch up; check time zones first."
         />
       </main>
     </div>
