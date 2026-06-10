@@ -24,6 +24,10 @@ function App() {
       taskNum: "5",
       task: "Call Mom and Dad to catch up; check time zones first.",
     },
+    {
+      taskNum: "6",
+      task: "Text partner to see if they are free this Friday, then book a table at favorites restaurant.",
+    },
   ]);
 
   return (
@@ -35,6 +39,7 @@ function App() {
         <ToDoListTask taskNum={tasks[2].taskNum} task={tasks[2].task} />
         <ToDoListTask taskNum={tasks[3].taskNum} task={tasks[3].task} />
         <ToDoListTask taskNum={tasks[4].taskNum} task={tasks[4].task} />
+        <ToDoListTask taskNum={tasks[5].taskNum} task={tasks[5].task} />
       </main>
     </div>
   );
