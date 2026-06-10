@@ -1,28 +1,28 @@
 import "./App.css";
-import ListItem from "./components/ListItem/ListItem";
+import ToDoListTask from "./components/ToDoListTask/ToDoListTask";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">To-Do List App</header>
-      <main className="lists-container">
-        <ListItem
+      <main className="to-do-list-container">
+        <ToDoListTask
           taskNum="1"
           task="Book round-flight ticket and reserve 3 nights at hotel."
         />
-        <ListItem
+        <ToDoListTask
           taskNum="2"
           task="Gather W-2s and enter charitable donation receipts into the spreadsheet."
         />
-        <ListItem
+        <ToDoListTask
           taskNum="3"
           task="Wipe down kitchen counters and vacuum the living room rug."
         />
-        <ListItem
+        <ToDoListTask
           taskNum="4"
           task="Call pharmacy to request a refill on blood pressure medication."
         />
-        <ListItem
+        <ToDoListTask
           taskNum="5"
           task=" Call Mom and Dad to catch up; check time zones first."
         />
