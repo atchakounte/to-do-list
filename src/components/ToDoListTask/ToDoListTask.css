@@ -1,0 +1,21 @@
+.task-item {
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px black;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightgrey;
+  display: inline-block;
+  width: 600px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  /* color: #888888; Optional: fade the text out slightly */
+  color: black;
+}
