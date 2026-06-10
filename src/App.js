@@ -1,9 +1,9 @@
 import "./App.css";
 import ToDoListTask from "./components/ToDoListTask/ToDoListTask";
-import React from "react";
+import { useState } from "react";
 
 function App() {
-  const [tasks, setTasks] = React.useState([
+  const [tasks, setTasks] = useState([
     {
       taskNum: "1",
       task: "Book round-flight ticket and reserve 3 nights at hotel.",
