@@ -26,7 +26,7 @@ function App() {
     },
     {
       taskNum: "6",
-      task: "Text partner to see if they are free this Friday, then book a table at favorites restaurant.",
+      task: "Book table for dinner reservations at Peter Luger's.",
     },
   ]);
 
