@@ -51,7 +51,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">To-Do List App</header>
-      <main className="to-do-list-container">{taskList}</main>
+      <main>
+        <section class="task-form">
+          <h2>New Task</h2>
+          <form action="#" method="GET">
+            <div className="form-row">
+              <label>
+                Task Number:
+                <input type="text" name="taskNum" placeholder="Task Number" />
+              </label>
+            </div>
+            <div className="form-row">
+              <label>
+                Task:
+                <input type="text" name="task" placeholder="Task" />
+              </label>
+            </div>
+            <div className="form-row">
+              <button type="submit">Add Task</button>
+            </div>
+          </form>
+        </section>
+        <section className="tasks-container">{taskList}</section>
+      </main>
     </div>
   );
 }
