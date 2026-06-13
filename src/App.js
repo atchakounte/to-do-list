@@ -1,6 +1,10 @@
-import "./App.css";
-import ToDoListTask from "./components/ToDoListTask/ToDoListTask";
 import { useState } from "react";
+
+import ToDoListTask from "./components/ToDoListTask/ToDoListTask";
+import TaskForm from "./components/TaskForm/TaskForm";
+import TasksContainer from "./components/TasksContainer/TasksContainer";
+
+import "./App.css";
 
 function App() {
   const [tasks, setTasks] = useState([
@@ -52,27 +56,8 @@ function App() {
     <div className="App">
       <header className="App-header">To-Do List App</header>
       <main>
-        <section class="task-form">
-          <h2>New Task</h2>
-          <form action="#" method="GET">
-            <div className="form-row">
-              <label>
-                Task Number:
-                <input type="text" name="taskNum" placeholder="Task Number" />
-              </label>
-            </div>
-            <div className="form-row">
-              <label>
-                Task:
-                <input type="text" name="task" placeholder="Task" />
-              </label>
-            </div>
-            <div className="form-row">
-              <button type="submit">Add Task</button>
-            </div>
-          </form>
-        </section>
-        <section className="tasks-container">{taskList}</section>
+        <TaskForm />
+        <TasksContainer taskList={taskList} />
       </main>
     </div>
   );
