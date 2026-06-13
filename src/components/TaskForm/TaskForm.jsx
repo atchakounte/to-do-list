@@ -1,11 +1,25 @@
 import React from "react";
 import "./TaskForm.css";
 
-export default function TaskForm() {
+const TaskForm = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const taskNumField = document.querySelector("[name=taskNum]");
+    const taskField = document.querySelector("[name=task]");
+
+    const taskNumValue = taskNumField.value;
+    const taskValue = taskField.value;
+
+    taskNumField.value = "";
+    taskField.value = "";
+
+    alert(`${taskNumValue} - ${taskValue}`);
+  };
   return (
     <section class="task-form">
       <h2>New Task</h2>
-      <form action="#" method="GET">
+      <form action="#" method="GET" onSubmit={handleSubmit}>
         <div className="form-row">
           <label>
             Task Number:
@@ -24,4 +38,6 @@ export default function TaskForm() {
       </form>
     </section>
   );
-}
+};
+
+export default TaskForm;
