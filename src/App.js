@@ -34,14 +34,6 @@ function App() {
     },
   ]);
 
-  const taskList = tasks.map((myTask) => (
-    <ToDoListTask
-      taskNum={myTask.taskNum}
-      task={myTask.task}
-      key={myTask.task}
-    />
-  ));
-
   /*
   [
     <ToDoListTask taskNum={tasks[0].taskNum} task={tasks[0].task} />,
@@ -57,7 +49,7 @@ function App() {
       <header className="App-header">To-Do List App</header>
       <main>
         <TaskForm />
-        <TasksContainer taskList={taskList} />
+        <TasksContainer tasks={tasks} />
       </main>
     </div>
   );
