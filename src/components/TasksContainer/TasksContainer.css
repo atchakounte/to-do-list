@@ -1,0 +1,8 @@
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center; /* Centers items vertically (along the main axis) */
+  align-items: center; /* Centers items horizontally (along the cross axis) */
+  /*min-height: 100vh;*/
+}
