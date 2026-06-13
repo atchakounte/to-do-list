@@ -30,17 +30,28 @@ function App() {
     },
   ]);
 
+  const taskList = tasks.map((myTask) => (
+    <ToDoListTask
+      taskNum={myTask.taskNum}
+      task={myTask.task}
+      key={myTask.task}
+    />
+  ));
+
+  /*
+  [
+    <ToDoListTask taskNum={tasks[0].taskNum} task={tasks[0].task} />,
+    <ToDoListTask taskNum={tasks[1].taskNum} task={tasks[1].task} />,
+    <ToDoListTask taskNum={tasks[2].taskNum} task={tasks[2].task} />,
+    <ToDoListTask taskNum={tasks[3].taskNum} task={tasks[3].task} />,
+    <ToDoListTask taskNum={tasks[4].taskNum} task={tasks[4].task} />,
+    <ToDoListTask taskNum={tasks[5].taskNum} task={tasks[5].task} />,
+  ];*/
+
   return (
     <div className="App">
       <header className="App-header">To-Do List App</header>
-      <main className="to-do-list-container">
-        <ToDoListTask taskNum={tasks[0].taskNum} task={tasks[0].task} />
-        <ToDoListTask taskNum={tasks[1].taskNum} task={tasks[1].task} />
-        <ToDoListTask taskNum={tasks[2].taskNum} task={tasks[2].task} />
-        <ToDoListTask taskNum={tasks[3].taskNum} task={tasks[3].task} />
-        <ToDoListTask taskNum={tasks[4].taskNum} task={tasks[4].task} />
-        <ToDoListTask taskNum={tasks[5].taskNum} task={tasks[5].task} />
-      </main>
+      <main className="to-do-list-container">{taskList}</main>
     </div>
   );
 }
