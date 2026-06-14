@@ -33,6 +33,11 @@ function App() {
     },
   ]);
 
+  const addTask = (taskNum, task) => {
+    const newTasks = [...tasks, { taskNum, task }];
+    setTasks(newTasks);
+  };
+
   /*
   [
     <ToDoListTask taskNum={tasks[0].taskNum} task={tasks[0].task} />,
@@ -47,7 +52,7 @@ function App() {
     <div className="App">
       <header className="App-header">To-Do List App</header>
       <main>
-        <TaskForm />
+        <TaskForm addTask={addTask} />
         <TasksContainer tasks={tasks} />
       </main>
     </div>

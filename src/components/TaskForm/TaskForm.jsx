@@ -1,7 +1,7 @@
 import React from "react";
 import "./TaskForm.css";
 
-const TaskForm = () => {
+const TaskForm = ({ addTask }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -14,7 +14,7 @@ const TaskForm = () => {
     taskNumField.value = "";
     taskField.value = "";
 
-    alert(`${taskNumValue} - ${taskValue}`);
+    addTask(taskNumValue, taskValue);
   };
   return (
     <section class="task-form">
