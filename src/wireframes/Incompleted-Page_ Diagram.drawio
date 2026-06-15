@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="07hz5U0-xhbjN8U5T28a">
+    <mxGraphModel dx="1886" dy="1236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wsAi1r0K_BUlkkestR7t-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="1300" width="950" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-2" parent="wsAi1r0K_BUlkkestR7t-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" value="Page 1" vertex="1">
+          <mxGeometry height="26" width="110" x="60" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-3" parent="wsAi1r0K_BUlkkestR7t-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" value="https://www.jungleroomcafé.com" vertex="1">
+          <mxGeometry height="26" width="250" x="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-4" parent="wsAi1r0K_BUlkkestR7t-1" style="fontSize=14;strokeColor=#FFFFFF;" value="Home" vertex="1">
+          <mxGeometry height="30" width="80" x="10" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-5" parent="wsAi1r0K_BUlkkestR7t-1" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;" value="Contact" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-6" parent="wsAi1r0K_BUlkkestR7t-1" style="fillColor=none;strokeColor=none;fontSize=14;fontColor=#000000;" value="Completed Tasks" vertex="1">
+          <mxGeometry height="30" width="90" x="160" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-7" parent="wsAi1r0K_BUlkkestR7t-1" style="fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Inconplete Tasks" vertex="1">
+          <mxGeometry height="30" width="130" x="270" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-9" parent="wsAi1r0K_BUlkkestR7t-1" style="rounded=1;whiteSpace=wrap;html=1;" value="task 1:&amp;nbsp;Book round-flight ticket and reserve 3 nights at hotel." vertex="1">
+          <mxGeometry height="60" width="604.5" x="150" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-11" parent="wsAi1r0K_BUlkkestR7t-1" style="rounded=1;whiteSpace=wrap;html=1;" value="task 3:&amp;nbsp;Wipe down kitchen counters and vacuum the living room rug." vertex="1">
+          <mxGeometry height="60" width="604.5" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-12" parent="wsAi1r0K_BUlkkestR7t-1" style="rounded=1;whiteSpace=wrap;html=1;" value="task 4:&amp;nbsp;Call pharmacy to request a refill on blood pressure medication." vertex="1">
+          <mxGeometry height="60" width="604.5" x="150" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-14" parent="wsAi1r0K_BUlkkestR7t-1" style="rounded=1;whiteSpace=wrap;html=1;" value="task 6:&amp;nbsp;Book table for dinner reservations at Peter Luger&#39;s." vertex="1">
+          <mxGeometry height="60" width="604.5" x="150" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-17" parent="wsAi1r0K_BUlkkestR7t-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" value="" vertex="1">
+          <mxGeometry height="30" width="25" x="725" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-19" parent="wsAi1r0K_BUlkkestR7t-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" value="" vertex="1">
+          <mxGeometry height="30" width="25" x="725" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-20" parent="wsAi1r0K_BUlkkestR7t-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" value="" vertex="1">
+          <mxGeometry height="30" width="25" x="725" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="wsAi1r0K_BUlkkestR7t-22" parent="wsAi1r0K_BUlkkestR7t-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;" value="" vertex="1">
+          <mxGeometry height="30" width="25" x="725" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
