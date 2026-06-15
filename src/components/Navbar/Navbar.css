@@ -1,0 +1,37 @@
+/* Fixes the navbar to the very top of the viewport */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+
+  /* Aligns logo on left and links on right */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Forces list items to sit horizontally */
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Controls space between links */
+}
+
+/* Styles individual navigation links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #4caf50;
+}

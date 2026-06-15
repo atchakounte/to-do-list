@@ -6,14 +6,34 @@
   padding: 10px;
   background-color: lightgrey;
   display: inline-block;
-  width: 600px;
-  height: 40px;
+  width: 700px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   user-select: none;
+  position: relative;
+}
+
+.delete-task {
+  font-weight: bold;
+  font-size: 24px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.delete-task:hover {
+  background-color: rgb(233, 15, 15);
 }
 
 .strike-through {
