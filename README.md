@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and implemented as a fully operational web application for managing "to-do" lists using React and React Router for navigation.
 
-Link: [https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS](https://github.com/atchakounte/Jungle-Room-Cafe-HTML-CSS)
+Link: [https://github.com/atchakounte/to-do-list](https://github.com/atchakounte/to-do-list)
 
 2. The app contains two views: /home and /contact
 3. When a user navigates to /home, they are presented with a view that:
