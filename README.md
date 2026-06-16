@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and implemented as a fully operational web application for managing "to-do" lists using React and React Router for navigation.
 
 Link: [https://github.com/atchakounte/to-do-list](https://github.com/atchakounte/to-do-list)
+GitHub pages link: [https://atchakounte.github.io/to-do-list/](https://atchakounte.github.io/to-do-list/)
 
 2. The app contains two views: /home and /contact
 3. When a user navigates to /home, they are presented with a view that:
